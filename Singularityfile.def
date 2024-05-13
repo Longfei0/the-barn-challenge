@@ -24,8 +24,8 @@ From: ros:melodic
     cd ..
     rosdep init; rosdep update
     rosdep install -y --from-paths . --ignore-src --rosdistro=melodic
-    source devel/setup.bash
     catkin_make
+    source devel/setup.bash
 
 %environment
     export PATH="/venv/bin:$PATH"
